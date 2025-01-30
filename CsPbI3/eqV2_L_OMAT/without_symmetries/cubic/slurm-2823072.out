@@ -1,0 +1,220 @@
+         [38;5;127mlibs[0m/[38;5;172mopenblas[0m/[38;5;67m0.3.27[0m/[38;5;68mgcc-14.1.0[0m ... UNLOADING --> [0;32mOK[0m
+                    [38;5;127mcompilers[0m/[38;5;172mgcc[0m/[38;5;67m14.1.0[0m ... UNLOADING --> [0;32mOK[0m
+             [38;5;127mlibs[0m/[38;5;172mnvidia-cuda[0m/[38;5;67m12.4.0[0m/[38;5;68mbin[0m ... UNLOADING --> [0;32mOK[0m
+          [38;5;127mapps[0m/[38;5;172mpython3[0m/[38;5;67m3.10.5[0m/[38;5;68mgcc-14.1.0[0m ... UNLOADING --> [0;32mOK[0m
+                         [38;5;127mlibs[0m/[38;5;172mgcc[0m/[38;5;67m14.1.0[0m ... UNLOADING --> [0;32mOK[0m
+[38;5;127mlibs[0m/[38;5;172mnvidia-cuda[0m/[38;5;67m12.4.0[0m/[38;5;68mbin[0m
+ |
+ [0;32mOK[0m
+[38;5;127mcompilers[0m/[38;5;172mgcc[0m/[38;5;67m14.1.0[0m
+ |
+ [0;32mOK[0m
+/users/pahlawat/.local/lib/python3.10/site-packages/ase/io/cif.py:408: UserWarning: crystal system 'cubic' is not interpreted for space group Spacegroup(221, setting=1). This may result in wrong setting!
+  warnings.warn(
+/users/pahlawat/.local/lib/python3.10/site-packages/spglib/spglib.py:115: DeprecationWarning: dict interface (SpglibDataset['number']) is deprecated.Use attribute interface ({self.__class__.__name__}.{key}) instead
+  warnings.warn(
+/users/pahlawat/.local/lib/python3.10/site-packages/spglib/spglib.py:115: DeprecationWarning: dict interface (SpglibDataset['international']) is deprecated.Use attribute interface ({self.__class__.__name__}.{key}) instead
+  warnings.warn(
+/users/pahlawat/.local/lib/python3.10/site-packages/spglib/spglib.py:115: DeprecationWarning: dict interface (SpglibDataset['hall']) is deprecated.Use attribute interface ({self.__class__.__name__}.{key}) instead
+  warnings.warn(
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/EScAIP/EScAIP/fairchem/src/fairchem/core/models/escn/so3.py:23: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  _Jd = torch.load(os.path.join(os.path.dirname(__file__), "Jd.pt"))
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/EScAIP/EScAIP/fairchem/src/fairchem/core/models/scn/spherical_harmonics.py:23: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  _Jd = torch.load(os.path.join(os.path.dirname(__file__), "Jd.pt"))
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/EScAIP/EScAIP/fairchem/src/fairchem/core/models/equiformer_v2/wigner.py:10: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  _Jd = torch.load(os.path.join(os.path.dirname(__file__), "Jd.pt"))
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/EScAIP/EScAIP/fairchem/src/fairchem/core/common/relaxation/ase_utils.py:191: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(checkpoint_path, map_location=torch.device("cpu"))
+WARNING:root:Couldn't modify the submission pickle with error: [Errno 2] No such file or directory: '/fsx-ocp-med/lbluque/logs/omat-alex-mp/S2EFS/train/4498017/2823072_submitted.pkl'
+INFO:root:amp: true
+cmd:
+  checkpoint_dir: /mnt/scratch2/q13camb_scratch/perovskites/CsPbI3_relaxed_structures/EquiformerV2_OMAT/CsPbI3_relative_energies/Omat/without_symmetries/cubic/checkpoints/2025-01-30-16-12-48
+  commit: d513ffa6
+  identifier: ''
+  logs_dir: /mnt/scratch2/q13camb_scratch/perovskites/CsPbI3_relaxed_structures/EquiformerV2_OMAT/CsPbI3_relative_energies/Omat/without_symmetries/cubic/logs/wandb/2025-01-30-16-12-48
+  print_every: 100
+  results_dir: /mnt/scratch2/q13camb_scratch/perovskites/CsPbI3_relaxed_structures/EquiformerV2_OMAT/CsPbI3_relative_energies/Omat/without_symmetries/cubic/results/2025-01-30-16-12-48
+  seed: null
+  timestamp_id: 2025-01-30-16-12-48
+  version: 1.4.1.dev12+gd513ffa6
+dataset:
+  a2g_args:
+    r_energy: true
+    r_forces: true
+    r_stress: true
+  format: ase_db
+  transforms:
+    decompose_tensor:
+      decomposition:
+        stress_anisotropic:
+          irrep_dim: 2
+        stress_isotropic:
+          irrep_dim: 0
+      rank: 2
+      tensor: stress
+    element_references:
+      file: /fsx-ocp-med/shared/alex-10M/alex-mp-norms-refs/element_references.pt
+    normalizer:
+      file: /fsx-ocp-med/shared/alex-10M/alex-mp-norms-refs/normalizers.pt
+evaluation_metrics:
+  metrics:
+    energy:
+    - mae
+    - mae_density
+    forces:
+    - mae
+    - forcesx_mae
+    - forcesy_mae
+    - forcesz_mae
+    - cosine_similarity
+    stress:
+    - mae
+    - mae_density
+    stress_anisotropic:
+    - mae
+    stress_isotropic:
+    - mae
+  primary_metric: energy_mae
+gp_gpus: null
+gpus: 0
+logger: wandb
+loss_functions:
+- energy:
+    coefficient: 20
+    fn: mae_density
+- forces:
+    coefficient: 10
+    fn: l2mae
+- stress_isotropic:
+    coefficient: 1
+    fn: mae
+- stress_anisotropic:
+    coefficient: 1
+    fn: mae
+    reduction: mean_all
+model:
+  backbone:
+    alpha_drop: 0.1
+    attn_activation: silu
+    attn_alpha_channels: 64
+    attn_hidden_channels: 64
+    attn_value_channels: 16
+    avg_degree: 61.94676351484548
+    avg_num_nodes: 31.16592360068011
+    distance_function: gaussian
+    drop_path_rate: 0.1
+    edge_channels: 128
+    enforce_max_neighbors_strictly: false
+    ffn_activation: silu
+    ffn_hidden_channels: 128
+    grid_resolution: 18
+    lmax_list:
+    - 6
+    max_neighbors: 20
+    max_num_elements: 96
+    max_radius: 12.0
+    mmax_list:
+    - 3
+    model: equiformer_v2_backbone
+    norm_type: layer_norm_sh
+    num_distance_basis: 512
+    num_heads: 8
+    num_layers: 20
+    num_sphere_samples: 128
+    otf_graph: true
+    proj_drop: 0.0
+    sphere_channels: 128
+    use_atom_edge_embedding: true
+    use_gate_act: false
+    use_grid_mlp: true
+    use_pbc: true
+    use_pbc_single: true
+    use_s2_act_attn: false
+    weight_init: uniform
+  heads:
+    energy:
+      module: fairchem.core.models.equiformer_v2.heads.EqV2ScalarHead
+    forces:
+      module: fairchem.core.models.equiformer_v2.heads.EqV2VectorHead
+    stress:
+      decompose: true
+      module: fairchem.core.models.equiformer_v2.heads.Rank2SymmetricTensorHead
+      output_name: stress
+      use_source_target_embedding: true
+  name: hydra
+  otf_graph: true
+  pass_through_head_outputs: true
+optim:
+  batch_size: 8
+  clip_grad_norm: 100
+  ema_decay: 0.999
+  eval_batch_size: 12
+  eval_every: 3000
+  load_balancing: atoms
+  lr_initial: 0.0002
+  max_epochs: 16
+  num_workers: 8
+  optimizer: AdamW
+  optimizer_params:
+    weight_decay: 0.001
+  scheduler: LambdaLR
+  scheduler_params:
+    epochs: 741904
+    lambda_type: cosine
+    lr: 0.0002
+    lr_min_factor: 0.01
+    warmup_epochs: 463
+    warmup_factor: 0.2
+outputs:
+  energy:
+    level: system
+    property: energy
+  forces:
+    eval_on_free_atoms: true
+    level: atom
+    property: forces
+    train_on_free_atoms: true
+  stress:
+    decomposition:
+      stress_anisotropic:
+        eval_on_free_atoms: true
+        irrep_dim: 2
+        level: system
+        parent: stress
+        train_on_free_atoms: true
+      stress_isotropic:
+        eval_on_free_atoms: true
+        irrep_dim: 0
+        level: system
+        parent: stress
+        train_on_free_atoms: true
+    level: system
+    property: stress
+relax_dataset: {}
+slurm:
+  account: ocp
+  cpus_per_task: 9
+  folder: /fsx-ocp-med/lbluque/logs/omat-alex-mp/S2EFS/train/4498017
+  gpus_per_node: 8
+  job_id: '2823072'
+  job_name: eqV2_153M_ft_alexmptraj_e20_f10_s1_cos16
+  mem: 480GB
+  nodes: 4
+  ntasks_per_node: 8
+  partition: learn
+  qos: ocp_high
+  time: 4320
+task: {}
+test_dataset: {}
+trainer: ocp
+val_dataset: {}
+
+INFO:root:Loading model: hydra
+INFO:root:Loaded HydraModel with 153769868 parameters.
+INFO:root:Loading checkpoint in inference-only mode, not loading keys associated with trainer state!
+/users/pahlawat/.local/lib/python3.10/site-packages/spglib/spglib.py:115: DeprecationWarning: dict interface (SpglibDataset['number']) is deprecated.Use attribute interface ({self.__class__.__name__}.{key}) instead
+  warnings.warn(
+/users/pahlawat/.local/lib/python3.10/site-packages/spglib/spglib.py:115: DeprecationWarning: dict interface (SpglibDataset['international']) is deprecated.Use attribute interface ({self.__class__.__name__}.{key}) instead
+  warnings.warn(
+/users/pahlawat/.local/lib/python3.10/site-packages/spglib/spglib.py:115: DeprecationWarning: dict interface (SpglibDataset['hall']) is deprecated.Use attribute interface ({self.__class__.__name__}.{key}) instead
+  warnings.warn(
