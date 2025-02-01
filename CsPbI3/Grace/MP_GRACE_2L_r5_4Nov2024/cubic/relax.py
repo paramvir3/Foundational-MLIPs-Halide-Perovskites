@@ -15,6 +15,7 @@ from ase.filters import UnitCellFilter, ExpCellFilter, StrainFilter,FrechetCellF
 from ase.optimize import LBFGS, FIRE, MDMin, GPMin
 from ase.spacegroup import get_spacegroup
 from ase.spacegroup.symmetrize import check_symmetry
+
 from tensorpotential.calculator.foundation_models import grace_fm, GRACEModels
 
 
@@ -31,7 +32,7 @@ def opt_with_symmetry(
     ecf = FrechetCellFilter(atoms, hydrostatic_strain=hydrostatic_strain)
     #log = 'relax_%d.log' %(x) 
     opt = FIRE(ecf, logfile='log')
-    opt.run(fmax=1e-4, steps=10000) 
+    opt.run(fmax=1e-04, steps=20000) 
     cell_diff = (atoms.cell.cellpar() / atoms_in.cell.cellpar() - 1.0) * 100
     #ene_diff = (atoms.get_potential_energy() - atoms_in.get_potential_energy())
     print(f"Optimization finished with steps = {opt.nsteps}")
@@ -42,24 +43,22 @@ def opt_with_symmetry(
     #print("Energy difference:", ene_diff)
     return atoms
 
-unit_atoms=read("ortho.cif")
-
-crystal_atoms = unit_atoms.repeat((1,2,1))
-
+unit_atoms=read("cubic.cif")
+crystal_atoms = unit_atoms.repeat((2,2,2))
 crystal_atoms = sort(crystal_atoms)
-
 write('POSCAR_initial',crystal_atoms,format='vasp')
 
-#print("Initial symmetry at precision 1e-5")
-#check_symmetry(crystal_atoms, 1.0e-5, verbose=True)
+##print("Initial symmetry at precision 1e-5")
+##check_symmetry(crystal_atoms, 1.0e-5, verbose=True)
 
-calculator = grace_fm(GRACEModels.MP_GRACE_1L_r6_4Nov2024)
+device="cpu" # or device="cuda"
+calculator = grace_fm(GRACEModels.MP_GRACE_2L_r5_4Nov2024)
 
 atoms_new = opt_with_symmetry(crystal_atoms, calculator, fix_symmetry=False, hydrostatic_strain=False)
 
 # We print out the initial symmetry groups at two different precision levels
-#print("Final symmetry at precision 1e-5")
-#check_symmetry(atoms_new, 1.0e-5, verbose=True)
+##print("Final symmetry at precision 1e-5")
+##check_symmetry(atoms_new, 1.0e-5, verbose=True)
 
 new_poscar = 'POSCAR_relaxed'
 atoms_new = sort(atoms_new)

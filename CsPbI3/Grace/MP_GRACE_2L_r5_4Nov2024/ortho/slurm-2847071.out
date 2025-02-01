@@ -1,0 +1,422 @@
+[38;5;127mapps[0m/[38;5;172manaconda3[0m/[38;5;67m2024.06[0m/[38;5;68mbin[0m
+ |
+ [0;32mOK[0m
+2025-02-01 18:53:06.064805: I external/local_tsl/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-02-01 18:53:06.069951: I external/local_tsl/tsl/cuda/cudart_stub.cc:32] Could not find cuda drivers on your machine, GPU will not be used.
+2025-02-01 18:53:06.083625: E external/local_xla/xla/stream_executor/cuda/cuda_fft.cc:479] Unable to register cuFFT factory: Attempting to register factory for plugin cuFFT when one has already been registered
+2025-02-01 18:53:06.109588: E external/local_xla/xla/stream_executor/cuda/cuda_dnn.cc:10575] Unable to register cuDNN factory: Attempting to register factory for plugin cuDNN when one has already been registered
+2025-02-01 18:53:06.109777: E external/local_xla/xla/stream_executor/cuda/cuda_blas.cc:1442] Unable to register cuBLAS factory: Attempting to register factory for plugin cuBLAS when one has already been registered
+2025-02-01 18:53:06.128811: I tensorflow/core/platform/cpu_feature_guard.cc:210] This TensorFlow binary is optimized to use available CPU instructions in performance-critical operations.
+To enable the following instructions: AVX2 FMA, in other operations, rebuild TensorFlow with the appropriate compiler flags.
+2025-02-01 18:53:07.274534: W tensorflow/compiler/tf2tensorrt/utils/py_utils.cc:38] TF-TRT Warning: Could not find TensorRT
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+WARNING: All log messages before absl::InitializeLog() is called are written to STDERR
+I0000 00:00:1738435991.795632 2050207 service.cc:145] XLA service 0x10671fa0 initialized for platform Host (this does not guarantee that XLA will be used). Devices:
+I0000 00:00:1738435991.795753 2050207 service.cc:153]   StreamExecutor device (0): Host, Default Version
+2025-02-01 18:53:12.149882: I tensorflow/compiler/mlir/tensorflow/utils/dump_mlir_util.cc:268] disabling MLIR crash reproducer, set env var `MLIR_CRASH_REPRODUCER_DIRECTORY` to enable.
+I0000 00:00:1738436001.141903 2050207 device_compiler.h:188] Compiled cluster using XLA!  This line is logged at most once for the lifetime of the process.
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.742367808640777e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.693772785982219e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.715947779048054e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.719351751238378e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.774442828191826e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.713436923422061e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7431306059880404e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7238824384958106e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7316590211989603e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7470967579715267e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.807735981876542e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.740188308751594e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7768196022829254e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8124311106188925e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8257949969608797e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.814454736637487e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.845956622692875e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8264189137671873e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.845950941491471e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8851133684970004e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8421478844437606e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.865620309749222e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8769404874515275e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.87544260943635e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8656307709323537e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.84585321862464e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8768616968473017e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8616507330153074e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.9008545590456887e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.843011392129978e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8345386983971557e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.883497296212723e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8606671087073064e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8515717408415663e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.826140089577138e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8544880154363926e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8539207377189735e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.870481712998007e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8655970000453124e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.870316757140109e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.9203642448791466e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8603311721500747e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.9376672012657313e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.863721471662723e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.89809864384802e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.880862812981132e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.887783222639365e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8907773898119545e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8936941436189376e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.896382454493125e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8659866121787727e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.867754773169808e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.881585561905226e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8609917805812766e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8997600878460985e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8971932453378145e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.890468525751845e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.930227805323616e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8805053633773907e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.867069979682541e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8980512896177257e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.886293977638573e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.89845292659159e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.88643198548427e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8854452049974265e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8769476458118055e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.912945814295752e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.885324708674376e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.926776443986854e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.9225584510796837e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8751355988179054e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.9369487302806485e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8819411658537286e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.927670545143702e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.895841536922909e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.905207162060505e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.924293126859365e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.905383408444662e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8775601725370954e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8810868859131863e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8804643320378615e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8664112819378854e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.9001733891343027e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.919450863352032e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.9016270112568143e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.9142300558964653e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.894364239455749e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.9031559632958384e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8557760092154787e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.9191722348354685e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.93739562371071e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8862402346352083e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.912020044397294e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.879718247324904e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.9104551285008086e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.907394884459695e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.9220219763466246e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.913502261130296e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.9101975648195087e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.896466140499397e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/grace/lib/python3.11/site-packages/numpy/core/fromnumeric.py:59: FutureWarning: 'DataFrame.swapaxes' is deprecated and will be removed in a future version. Please use 'DataFrame.transpose' instead.
+  return bound(*args, **kwds)

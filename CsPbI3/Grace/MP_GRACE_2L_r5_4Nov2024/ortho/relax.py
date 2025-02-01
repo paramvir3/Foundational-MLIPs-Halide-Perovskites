@@ -53,8 +53,7 @@ write('POSCAR_initial',crystal_atoms,format='vasp')
 #print("Initial symmetry at precision 1e-5")
 #check_symmetry(crystal_atoms, 1.0e-5, verbose=True)
 
-calculator = grace_fm(GRACEModels.MP_GRACE_1L_r6_4Nov2024)
-
+calculator = grace_fm(GRACEModels.MP_GRACE_2L_r5_4Nov2024)
 atoms_new = opt_with_symmetry(crystal_atoms, calculator, fix_symmetry=False, hydrostatic_strain=False)
 
 # We print out the initial symmetry groups at two different precision levels

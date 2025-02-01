@@ -30,7 +30,7 @@ def opt_with_symmetry(
         atoms.set_constraint([FixSymmetry(atoms)])
     ecf = FrechetCellFilter(atoms, hydrostatic_strain=hydrostatic_strain)
     #log = 'relax_%d.log' %(x) 
-    opt = LBFGS(ecf, logfile='log')
+    opt = FIRE(ecf, logfile='log')
     opt.run(fmax=1e-4, steps=10000) 
     cell_diff = (atoms.cell.cellpar() / atoms_in.cell.cellpar() - 1.0) * 100
     #ene_diff = (atoms.get_potential_energy() - atoms_in.get_potential_energy())
