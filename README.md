@@ -1,4 +1,5 @@
-![Visitor Count](https://profile-counter.glitch.me/{ahlawat-paramvir}/count.svg)
+![Visitor Count](https://profile-counter.glitch.me/{paramvir3}/count.svg)
+[![HitCount](https://hits.dwyl.com/{paramvir3}/{project}.svg?style=flat-square&show=unique)](http://hits.dwyl.com/{paramvir3}/{project})
 
 # Evaluation of foundational machine learning interatomic potentials for halide perovskites
 
