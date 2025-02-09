@@ -1,6 +1,3 @@
-![Visitor Count](https://profile-counter.glitch.me/{paramvir3}/count.svg)
-[![HitCount](https://hits.dwyl.com/paramvir3/https://github.com/paramvir3/Foundational-MLIPs-Halide-Perovskites.svg?style=flat-square)](http://hits.dwyl.com/paramvir3/https://github.com/paramvir3/Foundational-MLIPs-Halide-Perovskites)
-
 # Evaluation of foundational machine learning interatomic potentials for halide perovskites
 
 ## References: 
