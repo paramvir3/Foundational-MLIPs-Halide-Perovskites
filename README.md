@@ -1,4 +1,4 @@
-![Visitor Count](https://profile-counter.glitch.me/{YOUR USER}/count.svg)
+![Visitor Count](https: //profile-counter.glitch.me/{ahlawat-paramvir}/count.svg)
 
 # Evaluation of foundational machine learning interatomic potentials for halide perovskites
 
