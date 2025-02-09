@@ -1,3 +1,5 @@
+![Visitor Count](https://profile-counter.glitch.me/{YOUR USER}/count.svg)
+
 # Evaluation of foundational machine learning interatomic potentials for halide perovskites
 
 ## References: 
