@@ -11,6 +11,7 @@
 9. Mattersim: A deep learning atomistic model across elements, temperatures and pressures. arXiv preprint arXiv:2405.04967 (2024)
 10. Orb: A fast, scalable neural network potential. arXiv preprint arXiv:2410.22570 (2024)
 11. Open materials 2024 (omat24) inorganic materials dataset and models. arXiv preprint arXiv:2410.12771 (2024)
+12. Scalable Parallel Algorithm for Graph Neural Network Interatomic Potentials in Molecular Dynamics Simulations. Journal of Chemical Theory and Computation (2024)
 
 
 ## Acknowledgement
