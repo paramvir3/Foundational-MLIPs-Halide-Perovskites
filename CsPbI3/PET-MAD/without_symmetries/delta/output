@@ -1,0 +1,389 @@
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/io/cif.py:408: UserWarning: crystal system 'Orthorhombic' is not interpreted for space group Spacegroup(62, setting=1). This may result in wrong setting!
+  warnings.warn(
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.711052804115139e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.728746748375599e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7268035552532714e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7876900510333644e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7617328575525334e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.720888548278614e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.718921771690811e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7096913523625593e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.6390174445166955e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7134420177873895e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.66973329617006e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.695121080566634e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.674858346816992e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.668843124698172e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.734475292440209e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7395132848010693e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.6954058838634823e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.6536704809714287e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.6714714481286306e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.6743624065524e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.716251010155431e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7183581133038104e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.6826974332105443e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.6813978934816997e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7093502040333786e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.6971765570951875e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.6867426705298697e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.698792715050856e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.735828295713316e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.66300675723044e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.692071718868632e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.696587242151272e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.672629054266045e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.70029380188124e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7220770911631047e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.677885616332012e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.654177287467409e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.723395210913869e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.689312023921193e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.6972328276661067e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.658000511444684e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.6692899678971627e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.68103158273087e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.6889320170852435e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.691586516687993e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.685430411443182e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7350905445658587e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.6676731246244835e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.6447651761375773e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.732567678566422e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7248096071749027e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.674654694473742e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.720392525402227e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.746209716114092e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.718542266945769e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7174947931334924e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7703512732379986e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.75016617812609e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.753350680380545e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8174717227358137e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.778449616494058e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7047811013723607e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.761379248370468e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.74416458514058e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7556836560472915e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.757589377211283e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7182616056157193e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7618658652157237e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7917692181738263e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.788111243556974e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.76431096216084e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.718727049793456e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7908991277585214e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7563352481629585e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.767537571124067e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8216727320189407e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.76901597786023e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7782172687673337e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7335867465541213e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.759075559304099e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.756688062650091e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.743213736199441e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7380832253125746e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.803125290450443e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.761079938525389e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.738497025506125e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7566026783667316e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7153420211149797e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.74961590136387e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.730036398603081e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.769218825875659e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7828240748723983e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7569564899586003e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7945072369285066e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.730556903076478e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.746393282736168e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7340939823170176e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7329219830232463e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.802332677169551e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.742013217701039e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.728916749590019e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.741978536726686e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.6876206934835243e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.76916951685986e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.743199497451256e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.75242010442129e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.747620636124358e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7543793340811947e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7419405540505357e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8409144720406595e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7181674179044955e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.760487129350841e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7478212914290157e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7609764000770673e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.760816660255644e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7257384233383707e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.744889582668645e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.762569095706996e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7066284695683843e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7442157694401505e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7681697191156856e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7209344004419024e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7296230045346486e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7446265029233255e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.750463179465593e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7521628167839553e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7367438933133177e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.819571001431373e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7788599401749175e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7849699350716913e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.744276128563346e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.754141233657217e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.6993117650186895e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8169981269027774e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.6886563085660907e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7901707291251116e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.786065516039277e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7619526252467326e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.835681561265846e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.851271675247922e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7806541893833397e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.793333362789184e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8057051194258233e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8308675100558455e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7796936070997077e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.728622276521137e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8488492938854556e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.733785063159842e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.6956672546899476e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.790796463554163e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.731629293030328e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7922639481936833e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7360606847439894e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7864940398081653e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8308739340455134e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.778187439330368e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8170182781104663e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.817328762845871e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.762810166729872e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.73702293908286e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8154935370669313e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.742240015368172e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.776397064180341e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8290325635879843e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7906311101606883e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7736827636872176e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.711328644572006e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/users/pahlawat/.local/lib/python3.12/site-packages/ase/filters.py:600: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7610482188772503e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+Optimization finished with steps = 169
+Optimized Cell         : [10.49740347  9.28314722 17.83716287 90.05018356 90.01311061 90.02913605]
+Optimized Cell diff (%): [ 0.6057337  -3.10878592  0.42882084  0.05575951  0.01456734  0.03237339]
+Scaled positions       :
+ [[0.42071461 0.12466228 0.67149585]
+ [0.08001    0.3746923  0.17137331]
+ [0.57930632 0.37539628 0.32899423]
+ [0.92034413 0.12509439 0.82910533]
+ [0.42071435 0.62466281 0.67149524]
+ [0.08000998 0.87469244 0.17137332]
+ [0.57930633 0.87539617 0.32899427]
+ [0.9203441  0.62509419 0.82910533]
+ [0.16009651 0.12513535 0.99629748]
+ [0.34016305 0.37475422 0.49616966]
+ [0.84024527 0.37524124 0.0037255 ]
+ [0.6596466  0.12471011 0.50334581]
+ [0.29244183 0.12494688 0.28989306]
+ [0.20724299 0.37478475 0.79015355]
+ [0.70707491 0.37501367 0.70966751]
+ [0.79295377 0.12581226 0.21020832]
+ [0.03926761 0.12472725 0.61894517]
+ [0.46078424 0.37543953 0.1193995 ]
+ [0.96041655 0.37487358 0.38060502]
+ [0.53975264 0.12507848 0.88072953]
+ [0.16009636 0.62513516 0.9962975 ]
+ [0.34016282 0.87475403 0.49616972]
+ [0.84024516 0.87524121 0.00372554]
+ [0.65964681 0.62470997 0.50334577]
+ [0.29244186 0.62494691 0.28989292]
+ [0.20724272 0.87478469 0.79015346]
+ [0.70707456 0.87501363 0.7096679 ]
+ [0.79295368 0.62581231 0.21020817]
+ [0.03926737 0.62472697 0.61894518]
+ [0.46078444 0.8754394  0.11939949]
+ [0.96041695 0.87487385 0.38060509]
+ [0.5397528  0.62507854 0.88072951]
+ [0.15340849 0.12455406 0.44118362]
+ [0.34647266 0.3750787  0.94133619]
+ [0.84591199 0.37457107 0.55849666]
+ [0.65374557 0.12543312 0.0588749 ]
+ [0.15340804 0.62455498 0.44118374]
+ [0.34647298 0.87507895 0.94133641]
+ [0.84591299 0.87457078 0.55849614]
+ [0.65374597 0.62543349 0.05887508]]
+Epot after opt: -119.95613098144531 eV
+Final symmetry at precision 1e-5
+Traceback (most recent call last):
+  File "/mnt/scratch2/q13camb_scratch/perovskites/CsPbI3_relaxed_structures/PET-MAD/delta/relax.py", line 60, in <module>
+    check_symmetry(atoms_new, 1.0e-5, verbose=True)
+    ^^^^^^^^^^^^^^
+NameError: name 'check_symmetry' is not defined

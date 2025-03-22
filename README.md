@@ -12,7 +12,7 @@
 10. Orb: A fast, scalable neural network potential. arXiv preprint arXiv:2410.22570 (2024)
 11. Open materials 2024 (omat24) inorganic materials dataset and models. arXiv preprint arXiv:2410.12771 (2024)
 12. Scalable Parallel Algorithm for Graph Neural Network Interatomic Potentials in Molecular Dynamics Simulations. Journal of Chemical Theory and Computation (2024)
-
+13. PET-MAD, a universal interatomic potential for advanced materials modeling. https://arxiv.org/abs/2503.14118 (2025)
 
 ## Acknowledgement
 - Swiss National Science Foundation through post-doc mobility Fellowship No. P500PN_206693
