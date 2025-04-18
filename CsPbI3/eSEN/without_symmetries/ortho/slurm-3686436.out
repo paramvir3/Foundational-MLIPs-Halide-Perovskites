@@ -1,0 +1,389 @@
+[38;5;127mpython3[0m/[38;5;172m3.10.5[0m/[38;5;67mgcc-9.3.0[0m
+ |
+ [0;32mOK[0m
+[38;5;127mgcc[0m/[38;5;172m9.3.0[0m
+ |
+ [0;32mOK[0m
+[38;5;127mlibs[0m/[38;5;172mnvidia-cuda[0m/[38;5;67m12.4.0[0m/[38;5;68mbin[0m
+ |
+ [0;32mOK[0m
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/installation/fairchem/src/fairchem/core/models/escn/so3.py:23: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  _Jd = torch.load(os.path.join(os.path.dirname(__file__), "Jd.pt"))
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/installation/fairchem/src/fairchem/core/models/scn/spherical_harmonics.py:23: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  _Jd = torch.load(os.path.join(os.path.dirname(__file__), "Jd.pt"))
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/installation/fairchem/src/fairchem/core/models/equiformer_v2/wigner.py:10: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  _Jd = torch.load(os.path.join(os.path.dirname(__file__), "Jd.pt"))
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/installation/fairchem/src/fairchem/core/common/relaxation/ase_utils.py:200: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  checkpoint = torch.load(checkpoint_path, map_location=torch.device("cpu"))
+INFO:root:local rank base: 0
+INFO:root:amp: false
+cmd:
+  checkpoint_dir: /mnt/scratch2/q13camb_scratch/perovskites/CsPbI3_relaxed_structures/eSEN/without_symmetries/ortho/checkpoints/2025-04-18-17-55-28
+  commit: core:31c09639,experimental:NA
+  identifier: ''
+  logs_dir: /mnt/scratch2/q13camb_scratch/perovskites/CsPbI3_relaxed_structures/eSEN/without_symmetries/ortho/logs/wandb/2025-04-18-17-55-28
+  print_every: 100
+  results_dir: /mnt/scratch2/q13camb_scratch/perovskites/CsPbI3_relaxed_structures/eSEN/without_symmetries/ortho/results/2025-04-18-17-55-28
+  seed: null
+  timestamp_id: 2025-04-18-17-55-28
+  version: 1.9.1.dev19+g31c09639
+dataset:
+  a2g_args:
+    r_energy: true
+    r_forces: true
+    r_stress: true
+  format: ase_db
+  metadata_path: ''
+  transforms:
+    element_references: ''
+    normalizer:
+      energy:
+        mean: 0.0
+        stdev: 0.6274358
+      forces:
+        mean: 0.0
+        stdev: 0.6274358
+      stress:
+        mean: 0.0
+        stdev: 0.6274358
+evaluation_metrics:
+  metrics:
+    energy:
+    - mae
+    - per_atom_mae
+    forces:
+    - mae
+    - cosine_similarity
+    stress:
+    - mae
+  primary_metric: forces_mae
+gp_gpus: null
+gpus: 1
+logger: wandb
+loss_functions:
+- energy:
+    coefficient: 20
+    fn: per_atom_mae
+- forces:
+    coefficient: 20
+    fn: l2mae
+- stress:
+    coefficient: 5
+    fn: mae
+model:
+  backbone:
+    act_type: gate
+    cutoff: 6.0
+    direct_forces: false
+    distance_function: gaussian
+    edge_channels: 128
+    hidden_channels: 128
+    lmax: 3
+    max_neighbors: 300
+    max_num_elements: 100
+    mlp_type: spectral
+    mmax: 2
+    model: esen_backbone
+    norm_type: rms_norm_sh
+    num_distance_basis: 64
+    num_layers: 10
+    otf_graph: true
+    regress_forces: true
+    regress_stress: true
+    sphere_channels: 128
+    use_envelope: true
+    use_pbc: true
+    use_pbc_single: true
+  heads:
+    mptrj:
+      module: esen_mlp_efs_head
+  name: hydra
+  otf_graph: true
+  pass_through_head_outputs: true
+optim:
+  batch_size: 4
+  clip_grad_norm: 100
+  ema_decay: 0.999
+  eval_batch_size: 4
+  eval_every: 5000
+  load_balancing: atoms
+  lr_initial: 0.0004
+  max_epochs: 1
+  num_workers: 4
+  optimizer: AdamW
+  optimizer_params:
+    weight_decay: 0.001
+  scheduler: LambdaLR
+  scheduler_params:
+    epochs: 85271
+    lambda_type: cosine
+    lr: 0.0004
+    lr_min_factor: 0.1
+    warmup_epochs: 8527
+    warmup_factor: 0.2
+outputs:
+  energy:
+    level: system
+    property: energy
+  forces:
+    eval_on_free_atoms: true
+    level: atom
+    property: forces
+    train_on_free_atoms: true
+  stress:
+    level: system
+    property: stress
+relax_dataset: {}
+slurm: {}
+task: {}
+test_dataset: {}
+trainer: ocp
+val_dataset: {}
+
+INFO:root:Loading model: hydra
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/installation/fairchem/src/fairchem/core/models/esen/esen.py:91: FutureWarning: You are using `torch.load` with `weights_only=False` (the current default value), which uses the default pickle module implicitly. It is possible to construct malicious pickle data which will execute arbitrary code during unpickling (See https://github.com/pytorch/pytorch/blob/main/SECURITY.md#untrusted-models for more details). In a future release, the default value for `weights_only` will be flipped to `True`. This limits the functions that could be executed during unpickling. Arbitrary objects will no longer be allowed to be loaded via this mode unless they are explicitly allowlisted by the user via `torch.serialization.add_safe_globals`. We recommend you start setting `weights_only=True` for any use case where you don't have full control of the loaded file. Please open an issue on GitHub for any issues related to this experimental feature.
+  Jd_list = torch.load(os.path.join(os.path.dirname(__file__), "Jd.pt"))
+INFO:root:Loaded HydraModel with 30161153 parameters.
+INFO:root:Loading checkpoint in inference-only mode, not loading keys associated with trainer state!
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7369028604402397e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.747428544262084e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.71318320325179e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.750659822332862e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.7677393793333994e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.826949532588806e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8790112760142765e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.851187245286449e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8114748987936613e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.807456204039612e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.84005908073202e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.826663410533586e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8522699496032737e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8523170671466615e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8020581284662465e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.834295326751972e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.870581187542884e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8485536524179945e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8897246686079056e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.863650689156835e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8597626757781235e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.894766080134998e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.859023895994034e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8682869321458857e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.860901560095749e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8352931331353573e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.856805930651233e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8328740763073606e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.83410459223268e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8645650432658367e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.884439595141856e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8527560784045436e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.831081901947625e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.923811657671162e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8140083192977653e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.900076232779792e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.867582091482272e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.9089387104534163e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.894319635946464e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.849396242465592e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8853744443221523e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8736972071979634e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.837279505776329e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8356451231765987e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.894564233241376e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.823541942284801e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8440012720362157e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.838174355380571e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.884232181455542e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8663622639000777e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8154863482704523e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.848988547767781e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.851263029732139e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.9025764557551337e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.888877319723196e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8388965288012315e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.799257447642541e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.806203771838706e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.84935389121315e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8525051285751415e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8281866455737356e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.830901843200088e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8202691843821364e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.9080306431943095e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.893893430814113e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.854906292655389e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.886914430096623e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8386417124846365e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8749501164057296e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8732819822911053e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8249491589057683e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8645427997751375e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8814747928813706e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.774021213039529e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.832395513555171e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.901134440362399e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.866194301265957e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.931185526861235e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.923807444176951e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.9289109833431306e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.9290258476479667e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.865283301608924e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8256868440265065e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.879143386720642e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.913438773396784e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.911441437412686e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.9268101870466814e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.930161665627312e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8972675145786813e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.943697158023125e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.902261419037405e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.9092355497227517e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.947259870770259e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8541830134456526e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.844240489324034e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.9681463046067827e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.875033547707617e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.971511862705578e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8730265441697954e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8711757250874203e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8969690467708067e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.871035640582006e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8744622597105536e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.921072912843041e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.841813109520045e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8866720365313056e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8487517800004215e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8660122759036674e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8936017091733436e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8590939109843023e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8780363174821685e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8625093190055534e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8642292331474514e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.95217066717663e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.905613484687013e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.883203172022412e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8901041207706977e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.822853500050483e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.8556212036709277e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.891833362274694e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
+/mnt/scratch2/q13camb_scratch/perovskites/installation_stuff/packages/fairchem/lib/python3.10/site-packages/ase/filters.py:606: RuntimeWarning: logm result may be inaccurate, approximate err = 2.821130056318274e-13
+  pos[natoms:] = self.logm(pos[natoms:]) * self.exp_cell_factor
